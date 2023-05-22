@@ -1,0 +1,12 @@
+li:nth-child(even) { /*paires*/
+    color:blue;
+}
+
+ul:hover li:nth-child(even) { /*paires*/
+    color: black;
+}
+
+ul:hover li:nth-child(odd) { /*impaires*/
+    color: blue;
+}
+
